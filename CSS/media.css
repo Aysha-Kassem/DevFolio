@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .dropdown-menu {
+        font-size: 0.9rem;
+    }
+
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10px);
+        transition: all 0.3s ease;
+        margin-top: 0 !important;
+    }
+
+    .dropdown-menu .dropdown-menu {
+        right: 100%;
+        top: 0;
+        margin-left: 0.2rem;
+    }
+
+}
+
+@media (min-width: 993px) {
+    .navbar-brand {
+        font-size: 1.8rem;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+    }
+
+    .dropdown-menu {
+        font-size: 1rem;
+    }
+
+
+    /* header */
+    header {
+        background-attachment: fixed;
+    }
+
+    /* section 3 */
+    #data,
+    #carousel,
+    #contact {
+        height: 20vh;
+        background-attachment: fixed;
+    }
+}
