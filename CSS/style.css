@@ -82,7 +82,7 @@ header {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
-        url(/Images/hero-bg.jpg);
+        url(Images/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,7 +154,7 @@ header {
     background-image:
         linear-gradient(rgba(13, 110, 253, 0.7),
             rgba(13, 110, 253, 0.7)),
-        url(/Images/counters-bg.jpg);
+        url(Images/counters-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -190,7 +190,7 @@ header {
 #contact {
     background-image: linear-gradient(rgba(13, 110, 253, 0.7),
             rgba(13, 110, 253, 0.7)),
-        url(/Images/overlay-bg.jpg);
+        url(Images/overlay-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
